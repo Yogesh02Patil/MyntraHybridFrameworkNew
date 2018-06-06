@@ -13,7 +13,7 @@ public class DataProviderFromExcal {
 
 	public DataProviderFromExcal() throws Exception {
 		
-		f = new File("C:\\Users\\Yogesh\\Selenium_MyntraFramework\\com.myntra.testframework\\TestData\\data.xlsx");
+		f = new File("C:\\Users\\Yogesh\\git\\MyntraHybridFrameworkNew\\com.myntra.testframework\\TestData\\data.xlsx");
 		istream = new FileInputStream(f);
 		wbook = new XSSFWorkbook(istream);
 	}

@@ -16,7 +16,7 @@ public class Helper {
 		
 		File scr = st.getScreenshotAs(OutputType.FILE);
 		
-		String dest="C:\\Users\\Yogesh\\Selenium_MyntraFramework\\com.myntra.testframework\\Screenshots\\"+path+".png";
+		String dest="C:\\Users\\Yogesh\\git\\MyntraHybridFrameworkNew\\com.myntra.testframework\\Screenshots\\"+path+".png";
 		
 		org.openqa.selenium.io.FileHandler.copy(scr, new File(dest));
 		

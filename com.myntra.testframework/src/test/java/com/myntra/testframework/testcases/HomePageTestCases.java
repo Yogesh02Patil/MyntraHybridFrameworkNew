@@ -32,7 +32,7 @@ public class HomePageTestCases {
 	@BeforeTest
 	public void beforeTestCase() throws IOException
 	{
-		report=new ExtentReports("C:\\Users\\Yogesh\\Selenium_MyntraFramework\\com.myntra.testframework\\Report\\report.html",true);
+		report=new ExtentReports("C:\\Users\\Yogesh\\git\\MyntraHybridFrameworkNew\\com.myntra.testframework\\Report\\report.html",true);
 		logger=report.startTest("HomePageTestCases");
 		page1=new HomePageObject();
 	    driver = BrowserFactory.getDriver("firefox");

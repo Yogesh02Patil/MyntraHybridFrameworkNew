@@ -14,7 +14,7 @@ public class DataProviderFromConfig {
 
 	public DataProviderFromConfig() throws IOException {
 		f = new File(
-				"C:\\Users\\Yogesh\\Selenium_MyntraFramework\\com.myntra.testframework\\Configuration\\confg.properties");
+				"C:\\Users\\Yogesh\\git\\MyntraHybridFrameworkNew\\com.myntra.testframework\\Configuration\\confg.properties");
 
 		istream = new FileInputStream(f);
 
